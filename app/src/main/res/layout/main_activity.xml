@@ -36,12 +36,10 @@
         </LinearLayout>
 
         <TableLayout
-            android:layout_width="410dp"
-            android:layout_height="400dp"
-            android:layout_marginStart="1dp"
+            android:layout_width="373dp"
+            android:layout_height="401dp"
             android:layout_marginTop="100dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView">
 
@@ -51,7 +49,7 @@
 
                 <TextView
                     android:id="@+id/row0col0"
-                    android:layout_width="205dp"
+                    android:layout_width="113dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/A"
@@ -62,8 +60,8 @@
                 <TextView
 
                     android:id="@+id/row0col1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="@string/B"
                     android:textAlignment="center"
@@ -72,8 +70,8 @@
 
                 <TextView
                     android:id="@+id/row0col2"
-                    android:layout_width="15dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="@string/question"
                     android:textAlignment="center"
@@ -88,7 +86,7 @@
 
                 <TextView
                     android:id="@+id/row1col0"
-                    android:layout_width="match_parent"
+                    android:layout_width="162dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/T"
@@ -110,7 +108,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="5"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textSize="30sp"
+                    android:textAlignment="center" />
 
             </TableRow>
 
@@ -142,6 +142,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="5"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
                     android:inputType="textPersonName" />
 
             </TableRow>
@@ -174,6 +176,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="5"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
                     android:inputType="textPersonName" />
 
             </TableRow>
@@ -184,7 +188,7 @@
 
                 <TextView
                     android:id="@+id/row4col0"
-                    android:layout_width="match_parent"
+                    android:layout_width="169dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/F"
@@ -206,6 +210,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="5"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
                     android:inputType="textPersonName" />
 
             </TableRow>
@@ -213,7 +219,7 @@
         </TableLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/submitBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="160dp"
