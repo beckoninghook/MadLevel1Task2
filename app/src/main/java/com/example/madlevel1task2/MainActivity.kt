@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity()  {
     }
 
     private fun initViews() {
-        val submitBtn = findViewById<Button>(R.id.submitBtn)
+        val submitBtn = binding.submitBtn
         submitBtn.setOnClickListener(){
             onSubmit()
         }
